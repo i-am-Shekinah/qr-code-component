@@ -5,7 +5,7 @@
   --slate-500: hsl(216, 15%, 48%);
   --slate-900: hsl(218, 44%, 22%);
 
-  
+
 
   /* font */
   /* font: [font-weight] [font-size]/[line-height] [font-family]; */
@@ -37,6 +37,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 16px;
   width: 320px;
   height: 499px;
   margin: auto;
@@ -47,6 +48,10 @@ body {
 
 .card {
   width: 288px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 
 }
 
