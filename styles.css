@@ -1,3 +1,6 @@
+@import './reset.css';
+
+
 :root {
   /* colors */
   --white: hsl(0, 0%, 100%);
@@ -14,13 +17,6 @@
   --text-bold: 700 22px/120% "Outfit", serif;
   --normal-text-spacing: 0.2px;
   --bold-text-spacing: 0px;
-}
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 
