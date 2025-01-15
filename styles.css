@@ -30,19 +30,15 @@ body {
   font: var(--text-normal);
 }
 
-main {
-  padding: 16px;
-  background-color: var(--white);
-  border-radius: 20px;
-}
 
 .card {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  width: 18rem;
   max-width: 20rem;
-  height: 100%;
+  padding: 16px;
+  background-color: var(--white);
+  border-radius: 20px;
 
 }
 
